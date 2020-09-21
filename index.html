@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="weather-app">
+        <form class="search-form">
+            <div class="row">
+                <div class="col-5">
+                    
+                    <input type="search" id="city-input" placeholder="Search location" autofocus="on" autocomplete="off"
+                        class="form-control shadow-sm" />
+                </div>
+                <div class="col-3">
+                    <input type="submit" id= "go-button" value="Go 🌍" class="form-control btn btn-light shadow-sm" />
+                </div>
+                <div class="col-4">
+                <input type="submit" id="location-button" value="📍 My Location" class="form-control btn btn-light shadow-sm" />
+                </div>
+            </div>
+        </form>
+        <span class="realLocation">
+            <h1 id="location">Bilbao</h1>
+            <h3>Mostly cloudy</h3>
+            <div class="container data">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="nowTemp" id="nowTemp">17º</h2>
+                    </div>
+                    <div class="col-sm units">
+                        <a href=# id="cels-link">ºC</a>
+                        |
+                        <a href=# id="fahr-link">ºF</a>
+                    </div>
+                    <div class="col-sm maxmin">
+                        <h4>↑ 21º</h4>
+                        <h4>↓ 13º</h4>
+                    </div>
+                </div>
+            </div>
+        </span>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="today" id="today"><strong>TODAY</strong> Sunday, 18:30</p>
+                </div>
+                <div class="col">
+                    <p class="parameters"> RealFeel: 14º</p>
+                    <p class="parameters">Humidity: 80%</p>
+                    <p class="parameters">Wind: 1km/h</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+    
+    <div class="container">
+        <div class="row week">
+            <div class="col-sm">
+                <h3>Monday</h3>
+                <p class="emoji">☀️</p>
+                <br>
+                <p class="temp">21º | 12º</p>
+            </div>
+            <div class="col-sm">
+                <h3>Tuesday</h3>
+                <p class="emoji">☀️</p>
+                <br>
+                <p class="temp">19º | 14º</p>
+            </div>
+            <div class="col-sm">
+                <h3>Wednesday</h3>
+                <p class="emoji">☀️</p>
+                <br>
+                <p class="temp">18º | 13º</p>
+            </div>
+            <div class="col-sm">
+                <h3>Thursday</h3>
+                <p class="emoji">☀️</p>
+                <br>
+                <p class="temp">19º | 13º</p>
+            </div>
+            <div class="col-sm">
+                <h3>Friday</h3>
+                <p class="emoji">☀️</p>
+                <br>
+                <p class="temp">21º | 14º</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

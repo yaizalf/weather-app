@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  padding: 50px 20px 50px 20px;
+}
+header {
+  display: inline-block;
+  margin: 0 auto;
+}
+.realLocation {
+  text-align: center;
+  padding: 50px;
+}
+span h2 {
+  font-size: 70px;
+  text-align: right;
+}
+.maxmin {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.parameters {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+}
+.week {
+  text-align: center;
+}
+
+.temp {
+  font-size: 20px;
+  line-height: 0;
+}
+.emoji {
+  font-size: 40px;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.container h3 {
+  font-size: 18px;
+}
+.today {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.units {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+.data {
+  display: inline-block;
+  margin: 0 auto;
+}
