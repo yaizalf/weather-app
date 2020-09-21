@@ -64,3 +64,7 @@ span h2 {
   display: inline-block;
   margin: 0 auto;
 }
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
